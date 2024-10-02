@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hidetoxin&#39;s webpage</title>
+    <title>Hello, I&#39;m Fernando 👋 on Michael Schnerring</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on hidetoxin&#39;s webpage</description>
+    <description>Recent content in Hello, I&#39;m Fernando 👋 on Michael Schnerring</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2024 19:02:36 +0900</lastBuildDate>
+    <language>en</language>
+    <copyright>© 2024 - 2025 Fernando Becerra</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ipsum</title>
-      <link>http://localhost:1313/posts/lorep-ipsum/</link>
-      <pubDate>Mon, 30 Sep 2024 19:02:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/lorep-ipsum/</guid>
-      <description>&lt;h1 id=&#34;lorep-ipsum&#34;&gt;Lorep Ipsum&lt;a href=&#34;#lorep-ipsum&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna&#xA;aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint&#xA;occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+      <title>About ❓</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;On this website, I share my thoughts and notes about things that I&amp;rsquo;m excited about and working on and hope to connect&#xA;with people having a similar mindset. I&amp;rsquo;d love to hear from you!&lt;/p&gt;&#xA;&lt;h2 id=&#34;get-in-touch-&#34;&gt;Get in Touch 🤝&lt;a href=&#34;#get-in-touch-&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Connect with me! Stay up-to-date with what I&amp;rsquo;m sharing and working on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a&#xA;  href=&#34;https://github.com/hidetoxin&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://github.com/hidetoxin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a&#xA;  href=&#34;https://www.linkedin.com/in/hidetoxin&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://www.linkedin.com/in/hidetoxin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;RSS Feed: &lt;a&#xA;  href=&#34;https://hidetox.in/index.xml&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://hidetox.in/index.xml&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;thanks-&#34;&gt;Thanks ❤️&lt;a href=&#34;#thanks-&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Thank you, dear reader! Thank you for taking the time to read my blog. And thank you to everyone contributing to the&#xA;open-source community. If it wasn&amp;rsquo;t for you, this website wouldn&amp;rsquo;t exist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume 📄</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;p&gt;Resume PDF download &lt;a&#xA;  href=&#34;www.hidetox.in/fernando-becerra-resume.pdf&#34;&#xA;  &#xA;  &#xA;&gt;here&lt;/a&gt; ⬇️&lt;/p&gt;&#xA;&lt;h2 id=&#34;interests-&#34;&gt;Interests 🎮&lt;a href=&#34;#interests-&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;  &lt;div class=&#34;jr__list jr-interests__list&#34;&gt;&#xA;    &lt;ul&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Learning new technologies —&#xA;          Pulumi, Terratest, DiagramsAsCode&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Trying new CLI tools and plugins that I find on Reddit —&#xA;          Vim, CLI, Bash, Tmux, Yabai, MacOS, Linux&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Ricing my Linux and MacOS systems to boost my productivity —&#xA;          CLI, Bash, MacOS, Linux&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Automating tasks on my systems as a challenge and also for freeing time on my schedule —&#xA;          Go, AWS, Linux, Python, Ansible, Terraform, CloudFormation, ShellScripting&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Reading comics, mainly japanese, korean and american —&#xA;          Manga, Manwha, Manhua, Comics&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Language learning particularly asian ones —&#xA;          French, German, Korean, Chinese, Japanese&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Playing basketball with my friends —&#xA;          Astros, Lakers, BasketBall, SeoulKnights&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Playing video games, mostly 2D fighting games —&#xA;          FGC, Tekken, GuiltyGear, StreetFighter, KingOfFighters&#xA;        &lt;/li&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-interests__item&#34;&gt;&#xA;          Walking long distances with my dog, usually 3-5 hours on the weekends —&#xA;          5k, 10k, 15k, 20k, Husky, Walking&#xA;        &lt;/li&gt;&#xA;      &#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;skills-&#34;&gt;Skills 🧰&lt;a href=&#34;#skills-&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;  &lt;div class=&#34;jr__list jr-skills__list&#34;&gt;&#xA;    &lt;ul&gt;&#xA;      &#xA;        &lt;li class=&#34;jr__item jr-skills__item&#34;&gt;&#xA;          &lt;p&gt;&lt;strong&gt;AWS Cloud (Proficient)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

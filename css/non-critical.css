@@ -4,17 +4,9 @@
   
   
   
-
-  
-  
-  
     
     /* Import stylesheet for Prism plugin 'toolbar' from 'prismjs/plugins/toolbar/prism-toolbar.css' */
 
-
-  
-  
-  
 
   
   
@@ -24,10 +16,6 @@
 	position: relative;
 }
 
-
-  
-  
-  
 
   
   
@@ -46,10 +34,6 @@
   
   
   
-
-  
-  
-  
     
     div.code-toolbar:hover > .toolbar {
 	opacity: 1;
@@ -59,18 +43,10 @@
   
   
   
-
-  
-  
-  
     
     /* Separate line b/c rules are thrown out if selector is invalid.
    IE11 and old Edge versions don't support :focus-within. */
 
-
-  
-  
-  
 
   
   
@@ -84,10 +60,6 @@
   
   
   
-
-  
-  
-  
     
     div.code-toolbar > .toolbar > .toolbar-item {
 	display: inline-block;
@@ -97,19 +69,11 @@
   
   
   
-
-  
-  
-  
     
     div.code-toolbar > .toolbar > .toolbar-item > a {
 	cursor: pointer;
 }
 
-
-  
-  
-  
 
   
   
@@ -132,10 +96,6 @@
   
   
   
-
-  
-  
-  
     
     div.code-toolbar > .toolbar > .toolbar-item > a,
 div.code-toolbar > .toolbar > .toolbar-item > button,
@@ -149,10 +109,6 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
 	border-radius: .5em;
 }
 
-
-  
-  
-  
 
   
   
@@ -172,114 +128,9 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   
   
   
-
-  
-  
-  
-    
-    /* Import stylesheet for Prism plugin 'line-numbers' from 'prismjs/plugins/line-numbers/prism-line-numbers.css' */
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    pre[class*="language-"].line-numbers {
-	position: relative;
-	padding-left: 3.8em;
-	counter-reset: linenumber;
-}
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    pre[class*="language-"].line-numbers > code {
-	position: relative;
-	white-space: inherit;
-}
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    .line-numbers .line-numbers-rows {
-	position: absolute;
-	pointer-events: none;
-	top: 0;
-	font-size: 100%;
-	left: -3.8em;
-	width: 3em; /* works for line-numbers below 1000 lines */
-	letter-spacing: -1px;
-	border-right: 1px solid #999;
-
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-
-}
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    .line-numbers-rows > span {
-		display: block;
-		counter-increment: linenumber;
-	}
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    .line-numbers-rows > span:before {
-			content: counter(linenumber);
-			color: #999;
-			display: block;
-			padding-right: 0.8em;
-			text-align: right;
-		}
-
-
-  
-  
-  
-
-  
-  
-  
     
     /* Import stylesheet for Prism plugin 'command-line' from 'prismjs/plugins/command-line/prism-command-line.css' */
 
-
-  
-  
-  
 
   
   
@@ -305,10 +156,6 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   
   
   
-
-  
-  
-  
     
     .command-line-prompt > span:before {
 	opacity: 0.7;
@@ -317,10 +164,6 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	padding-right: 0.8em;
 }
 
-
-  
-  
-  
 
   
   
@@ -334,19 +177,11 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   
   
   
-
-  
-  
-  
     
     .command-line-prompt > span[data-user="root"]:before {
 	content: "[" attr(data-user) "@" attr(data-host) "] #";
 }
 
-
-  
-  
-  
 
   
   
@@ -360,19 +195,11 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   
   
   
-
-  
-  
-  
     
     .command-line-prompt > span[data-continuation-prompt]:before {
 	content: attr(data-continuation-prompt);
 }
 
-
-  
-  
-  
 
   
   
@@ -387,60 +214,9 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   
   
   
-
-  
-  
-  
-    
-    /* Import stylesheet for Prism plugin 'diff-highlight' from 'prismjs/plugins/diff-highlight/prism-diff-highlight.css' */
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    pre.diff-highlight > code .token.deleted:not(.prefix),
-pre > code.diff-highlight .token.deleted:not(.prefix) {
-	background-color: rgba(255, 0, 0, .1);
-	color: inherit;
-	display: block;
-}
-
-
-  
-  
-  
-
-  
-  
-  
-    
-    pre.diff-highlight > code .token.inserted:not(.prefix),
-pre > code.diff-highlight .token.inserted:not(.prefix) {
-	background-color: rgba(0, 255, 128, .1);
-	color: inherit;
-	display: block;
-}
-
-
-  
-  
-  
-
-  
-  
-  
     
     /* Prism Font */
 
-
-  
-  
-  
 
   
   
@@ -457,17 +233,9 @@ pre[class*="language-"] {
   
   
   
-
-  
-  
-  
     
     /*! purgecss end ignore */
 
-
-  
-  
-  
 
   
   
@@ -479,17 +247,9 @@ pre[class*="language-"] {
   
   
   
-
-  
-  
-  
     
     /*! MIT License | github.com/schnerring/hugo-theme-gruvbox */
 
-
-  
-  
-  
 
   
   
@@ -500,10 +260,6 @@ pre[class*="language-"] {
   See: https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints
 */
 
-
-  
-  
-  
 
   
   
@@ -525,20 +281,12 @@ pre[class*="language-"] {
   
   
   
-
-  
-  
-  
     
     .pagination {
   display: flex;
   margin-top: 2rem;
 }
 
-
-  
-  
-  
 
   
   
@@ -554,19 +302,11 @@ pre[class*="language-"] {
   
   
   
-
-  
-  
-  
     
     .pagination__button:hover {
   color: var(--primary);
 }
 
-
-  
-  
-  
 
   
   
